@@ -1,0 +1,1 @@
+In React Native, using a ref to access a component's properties or methods sometimes results in `undefined` or `null` even after the component has mounted. This frequently happens when accessing refs prematurely before the component's lifecycle methods like `componentDidMount` complete, or if there's a race condition between the ref assignment and the component's rendering.
